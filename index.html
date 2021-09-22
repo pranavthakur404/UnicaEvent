@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Even Organiser Team">
+    <meta name="keyword" content="event, event planner, event management">
+    <meta name="author" content="pranav">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unica - Event Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!--Toggle navigation section -->
+    <section class="toggle-nav" id="toggle-navigation">
+        <i class="fa fa-close" id="close-nav" onclick="toggleOff()"></i>
+        <p>HOME</p>
+        <p>FEATURES </p>
+        <p>ABOUT </p>
+        <p>SERVICES</p>
+        <p>GALLERY </p>
+        <p>BLOG</p>
+        <p>SHOP </p>
+    </section>
+
+    <!-- header start -->
+    <header>
+        <!-- information -->
+        <div class="info">
+            <div class="info-inner">
+                <p class="our-email">info@ancorathemes.com</p>
+                <p><span class="fa fa-clock-o orange"></span> Monday – Friday 8.00 am – 5.00 pm, Weekend Closed
+                    &nbsp;<span class="orange fa fa-phone"> 1-800-64-38</span></p>
+            </div>
+        </div>
+        
+        <!-- navigation -->
+        <nav>
+            <div class="nav-inner">
+                <i class="fa  fa-navicon navicon" id="navIcon" onclick="toggleOn()"></i>
+                <img src="/image/logo.webp" alt="" class="logo">
+                <div class="nav-links">
+                    <p>HOME</p>
+                    <p>FEATURES </p>
+                    <p>ABOUT </p>
+                    <p>SERVICES</p>
+                    <p>GALLERY </p>
+                    <p>BLOG</p>
+                    <p>SHOP </p>
+                </div>  
+            </div>
+        </nav>
+    </header>
+    <!-- header ends -->
+
+    <!-- banner section start -->
+    <section class="banner-section" id="banner-sec">
+        <div class="banner-section-inner">
+            <!-- text-one -->
+            <div class="banner-text-one banner-text orange" id="text-one">
+                <h1>We Create <br> You celebrate</h1>
+                <p>Planning a wedding, Proposal, or Event in our busy city is not so easy, and it takes skills (and
+                    time) to make it all look easy-going</p>
+                <button>ONILE REQUEST</button>
+            </div>
+
+            <!-- text-two -->
+            <div class="banner-text-two banner-text" id="text-two">
+                <h1>From set up <br> to clean up</h1>
+                <p>Planning a wedding, Proposal, or Event in our busy city is not so easy, and it takes skills (and
+                    time) to make it all look easy-going</p>
+                <button>ONLINE REQUEST</button>
+            </div>
+
+            <!-- text-three -->
+            <div class="banner-text-three banner-text" id="text-three">
+                <h1>Let us help <br> you create</h1>
+                <p>Planning a wedding, Proposal, or Event in our busy city is not so easy, and it takes skills (and
+                    time) to make it all look easy-going</p>
+                <button>ONILE RQUEST</button>
+            </div>
+        </div>
+
+        <div class="slider-button">
+            <i class="fa fa-circle" id="circle-one" onclick="bannerOne()"></i>
+            <i class="fa fa-circle" id="circle-two" onclick="bannerTwo()"></i>
+            <i class="fa fa-circle" id="circle-three" onclick="bannerThree()"></i>
+        </div>
+
+        <img src="http://unicaevents.ancorathemes.com/wp-content/uploads/2015/10/conf.png" class="party-banner-img">
+    </section>
+    <!-- banner section ends -->
+
+    <!-- section 1 start -->
+    <section class="section1">
+        <div class="section1-inner">
+            <!-- text -->
+            <div class="text">
+                <h1>It’s simple. You have an event to plan and <br> we have <span class="orange">the solutions</span>
+                </h1>
+                <hr class="orange">
+                <p>HERE IS HOW WE CAN HELP YOU</p>
+            </div>
+
+            <!-- 4 boxes -->
+            <div class="boxes">
+                <div class="box box1">
+                    <i class="fa fa-music"></i>
+                    <h1>Social</h1>
+                    <p>From a sweet 16 pary <br> to a 50th birthday <br> celebration…</p>
+                    <button>More</button>
+                </div>
+
+                <div class="box box2">
+                    <i class="fa fa-glass"></i>
+                    <h1>Weddings</h1>
+                    <p>From a sweet 16 pary <br> to a 50th birthday <br> celebration…</p>
+                    <button>More</button>
+                </div>
+
+                <div class="box box3">
+                    <i class="fa fa-diamond"></i>
+                    <h1>Proposal</h1>
+                    <p>From a sweet 16 pary <br> to a 50th birthday <br> celebration…</p>
+                    <button>More</button>
+                </div>
+
+                <div class="box box4">
+                    <i class="fa fa-angellist"></i>
+                    <h1>Corporate</h1>
+                    <p>From a sweet 16 pary <br> to a 50th birthday <br> celebration…</p>
+                    <button>More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 1 ends -->
+
+    <!-- section 2 start -->
+    <section class="section2">
+        <h1><span class="orange">Hello!</span> We Are an Event Planning Agency</h1>
+        <hr>
+        <p>As the premier event planning company in the area, we know that it’s not “one size fits <br> all”. Each event
+            and client is unique and we believe our services should be as well. We <br> know that it should be “Can I
+            hire a planner?” not “Can I afford one?”.</p>
+
+        <div class="boxes">
+            <div class="box">
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <h3>Find the perfect <br> venue for free</h3>
+                <p>1</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <h3>Connect with the <br> best vendor</h3>
+                <p>2</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                <h3>Let us help you <br> with the event</h3>
+                <p>3</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-magic" aria-hidden="true"></i>
+                <h3>Enjoy the party <br> with your friends</h3>
+                <p>4</p>
+            </div>
+        </div>
+    </section>
+    <!-- section 2 ends -->
+
+    <!-- section 3 start -->
+    <section class="section3">
+        <div class="section3-inner">
+            <div class="boxes">
+                <div class="box">
+                    <h1 id="num1">67</h1>
+                    <hr>
+                    <p>Projects</p>
+                </div>
+                <div class="box">
+                    <h1 id="num2">117</h1>
+                    <hr>
+                    <p>Clients</p>
+                </div>
+                <div class="box">
+                    <h1 id="num3">18</h1>
+                    <hr>
+                    <p>Members</p>
+                </div>
+                <div class="box">
+                    <h1 id="num4">12</h1>
+                    <hr>
+                    <p>Awards</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 3 ends -->
+
+    <!-- gallary section start -->
+    <section class="gallary">
+        <h1>Gallery</h1>
+        <hr>
+        <p>OUR RECENT PROJECTS</p>
+
+        <div class="boxes">
+            <div class="box box1">
+                <i class="fa fa-search"></i>
+                <i class="fa fa-unlink"></i>
+                <div class="hover-box">
+                    <span class="fa fa-plus"></span>
+                </div>
+            </div>
+            <div class="box box2">
+                <i class="fa fa-search"></i>
+                <i class="fa fa-unlink"></i>
+                <div class="hover-box">
+                    <span class="fa fa-plus"></span>
+                </div>
+            </div>
+            <div class="box box3">
+                <i class="fa fa-search"></i>
+                <i class="fa fa-unlink"></i>
+                <div class="hover-box">
+                    <span class="fa fa-plus"></span>
+                </div>
+            </div>
+            <div class="box box4">
+
+                <i class="fa fa-search"></i>
+                <i class="fa fa-unlink"></i>
+                <div class="hover-box">
+                    <span class="fa fa-plus"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="last-text">
+            <p>See Our <span class="orange">Best Events</span> Gallery!</p>
+            <button>VISIT GALLERY</button>
+        </div>
+    </section>
+    <!-- gallary section ends -->
+
+    <!-- Testimonials section -->
+    <section class="testimonials">
+        <div class="testimonials-inner">
+            <h1>Testimonials</h1>
+            <hr>
+            <p>HAPPY CLIENTS ABOUT US</p>
+
+
+            <div class="messages messages1" id="msg1">
+                <div class="box">
+                    <p>"Look no further! You are in the right place to plan your celebration"</p>
+                    <div class="profile">
+                        <img src="image/part1.jpg" alt="">
+                        <h4>LINDA MOVRIZZA</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <P>"I invited these event planner to arrange a bachelor party for my best"</P>
+                    <div class="profile">
+                        <img src="image/part2.jpg" alt="">
+                        <h4>JHON SNOW</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>"Perfect decoration and perfect buffet for my little sister's birthday party"</p>
+                    <div class="profile">
+                        <img src="image/part3.jpg" alt="">
+                        <h4>JANE SANDERS</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <P>"My family and I are beyond happy to have them plan our wedding"</P>
+                    <div class="profile">
+                        <img src="image/part4.jpg" alt="">
+                        <h4>JESSICA MANN</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>"Look no further! You are in the right place to plan your celebration"</p>
+                    <div class="profile">
+                        <img src="image/part1.jpg" alt="">
+                        <h4>LINDA MOVRIZZA</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <P>"I invited these event planner to arrange a bachelor party for my best"</P>
+                    <div class="profile">
+                        <img src="image/part2.jpg" alt="">
+                        <h4>JHON SNOW</h4>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- message 2 -->
+            <div class="messages messages2" id="msg2">
+                <div class="box">
+                    <P>"I invited these event planner to arrange a bachelor party for my best"</P>
+                    <div class="profile">
+                        <img src="image/part6.jpg" alt="">
+                        <h4>LINDA MOVRIZZA</h4>
+                    </div>
+                </div>
+                <div class="box">
+
+                    <p>"Look no further! You are in the right place to plan your celebration"</p>
+                    <div class="profile">
+                        <img src="image/part5.jpg" alt="">
+                        <h4>JHON SNOW</h4>
+                    </div>
+                </div>
+                <div class="box">
+
+                    <p>"Look no further! You are in the right place to plan your celebration"</p>
+                    <div class="profile">
+                        <img src="image/part4.jpg" alt="">
+                        <h4>JANE SANDERS</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <P>"My family and I are beyond happy to have them plan our wedding"</P>
+                    <div class="profile">
+                        <img src="image/part3.jpg" alt="">
+                        <h4>JESSICA MANN</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>"Perfect decoration and perfect buffet for my little sister's birthday party"</p>
+                    <div class="profile">
+                        <img src="image/part2.jpg" alt="">
+                        <h4>LINDA MOVRIZZA</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <P>"I invited these event planner to arrange a bachelor party for my best"</P>
+                    <div class="profile">
+                        <img src="image/part1.jpg" alt="">
+                        <h4>JHON SNOW</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="test-slider-button">
+                <span class="fa fa-circle" id="p1" onclick="testimonial1()"></span>
+                <span class="fa fa-circle" id="p2" onclick="testimonial2()"></span>
+            </div>
+        </div>
+    </section>
+    <!-- testimonials section ends -->
+
+    <!-- contact section -->
+    <section class="contact">
+        <div class="box image">
+
+        </div>
+
+        <div class="box form">
+            <div class="form-inner">
+                <h1>Online Request</h1>
+                <hr>
+                <h5>DROP US A FEW LINES</h5>
+
+                <form>
+                    <div class="name-phone">
+                        <input type="text" placeholder="Name*" class="name">
+                        <input type="number" placeholder="Phone*" class="phone">
+                    </div>
+                    <textarea class="message" placeholder="Message*"></textarea> <br>
+                    <input type="checkbox">
+                    <span class="checkbox-text">I agree that my submitted data is being collected and stored</span> <br>
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- our details section -->
+    <section class="our-details">
+        <div class="our-details-inner">
+            <div class="box">
+                <i class="fa fa-map-marker"></i>
+                <h3>Postal Address</h3>
+                <p>Unica Event Agency <br>
+                    85 Fentiman Ave <br>
+                    Ottawa, ON K1S 0T</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-clock-o"></i>
+                <h3>Phone & E-mail</h3>
+                <p>Phone:<span class="orange under-line">1-800-64-38</span> <br>
+                    Fax: 1-800-64-39 <br>
+                    <span class="orange under-line">office@fable.com</span>
+                </p>
+            </div>
+            <div class="box">
+                <i class="fa fa-phone"></i>
+                <h3>Open Hours</h3>
+                <p>Monday – Friday<br>
+                    8.00 am – 5.00 pm<br>
+                    Weekend Closed</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-sticky-note"></i>
+                <h3>Sessions</h3>
+                <p>Mornings, 8 am – 12 noon<br>
+                    Afternoons, 1 pm – 5 pm<br>
+                    Full Day, 8 am – 5 pm</p>
+            </div>
+        </div>
+    </section>
+    <!-- our details section ends -->
+
+    <!-- location section start -->
+    <section class="location-section">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d848295.9861393345!2d150.37152490226384!3d-33.846975938661174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20NSW%2C%20Australia!5e0!3m2!1sen!2sin!4v1632035385773!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <!-- location section ends -->
+
+    <!-- footer section start -->
+    <footer>
+        <div class="footer-inner">
+            <div class="box box1">
+                <h1>About Unica</h1>
+                <h4>Creative and elegant event <br> design and planning</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Mauris hendrerit fringilla <br> ligula,
+                    nec congue leo pharetra in. Lorem <br> ipsum dolor sit amet, consectetur.</p>
+            </div>
+            <div class="box box2">
+                <h1>Site links</h1>
+                <ul>
+                    <li>About Us</li>
+                    <li>Our Team</li>
+                    <li>Gallery</li>
+                    <li>Corporate</li>
+                    <li>Contact Us</li>
+                    <li>Blog</li>
+                    <li>Service</li>
+                </ul>
+            </div>
+            <div class="box box3">
+                <h1>Recent Reviews</h1>
+                <div class="two-review">
+                    <div class="review">
+                        <img src="image/review1.jpg" alt="">
+                        <div class="text">
+                            <h5>How to Start an Event <br> Planning Service</h5>
+                            <div class="rating">
+                                <i class="fa fa-star orange" aria-hidden="true"></i>
+                                <i class="fa fa-star orange" aria-hidden="true"></i>
+                                <i class="fa fa-star orange" aria-hidden="true"></i>
+                                <i class="fa fa-star orange" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true"></i>
+                                <span>4.4</span>
+                            </div>
+                            <p><span class="red">AUG 5, 2015</span> | ADMIN</p>
+                        </div>
+
+                    </div>
+                    <div class="review">
+                        <img src="image/review2.jpg" alt="">
+                        <div class="text">
+                            <h5>Turning a Profit in<br> the Event Planning<br> Business</h5>
+                            <div class="rating">
+                                <i class="fa fa-star orange" aria-hidden="true"></i>
+                                <i class="fa fa-star orange" aria-hidden="true"></i>
+                                <i class="fa fa-star orange" aria-hidden="true"></i>
+                                <i class="fa fa-star orange" aria-hidden="true"></i>
+                                <i class="fa fa-star orange" aria-hidden="true"></i>
+                                <span>4.2</span>
+                            </div>
+                            <p><span class="red">AUG 5, 2015</span> | ADMIN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box box4">
+                <h1>Recent Posts</h1>
+                <div class="post">
+                    <img src="image/post1.jpg" alt="">
+                    <div class="text">
+                        <h5>How to Start an Event <br> Planning Service</h5>
+                        <p><span class="red">AUG 5, 2015</span> | ADMIN</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="image/post2.jpg" alt="">
+                    <div class="text">
+                        <h5>Turning a Profit in the <br> Event Planning <br> Business</h5>
+                        <p><span class="red">AUG 5, 2015</span> | ADMIN</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="image/post3.jpg" alt="">
+                    <div class="text">
+                        <h5>Hiring an Events <br> Planner</h5>
+                        <p><span class="red">AUG 5, 2015</span> | ADMIN</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer last section -->
+        <footer class="footer-last">
+            <p>AncoraThemes © <span class="silver">2021. All rights reserved.</span></p>
+        </footer>
+        <!-- footer last section ends -->
+
+    </footer>
+    <!-- footer section ends -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
